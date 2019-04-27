@@ -10,3 +10,7 @@ script:
   - make lint
   - make docker_build
   - make docker_push
+deploy:
+  provider: heroku
+  app: intense-springs-35978
+  apki_key: ${HEROKU_API_KEY}
