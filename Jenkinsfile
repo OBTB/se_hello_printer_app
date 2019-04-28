@@ -5,6 +5,10 @@ pipeline {
             steps {
 	                  sh 'make deps'
 	              }
+        stage('Lint') {
+            steps {
+        	          sh 'make lint'
+        	      }
         }
         stage('Test') {
             steps {
@@ -12,4 +16,4 @@ pipeline {
                 }
         }
     }
-}                    
+}
