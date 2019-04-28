@@ -105,7 +105,10 @@ Centos
     $ systemctl start docker
 
 .. image:: https://travis-ci.org/OBTB/se_hello_printer_app.svg?branch=master
-    :target: https://travis-ci.org/OBTB/se_hello_printer_app    
+    :target: https://travis-ci.org/OBTB/se_hello_printer_app
+
+.. image:: https://app.statuscake.com/button/index.php?Track=FHXPjoMljD&Days=1&Design=2
+    :target: https://www.statuscake.com
 
 Materiały
 =========
